@@ -58,15 +58,13 @@ def lowest_mark():
    else:
         print("No student records found.")
 
-def delete_student():
-    pass
 
 def main():
 
     program_running = ""
     
     while program_running.lower() != "9":
-        print("1. View all student records\n2.View individual student record\n3.Show student with highest total score \n4.Show student with lowest total score \n5.Sort student records\n6.Add a student record\n7.Delete a student record\n8.Update a student record\n")
+        print("1. View all student records\n2.View individual student record\n3.Show student with highest total score \n4.Show student with lowest total score \n5.Sort student records\n6.Add a student record\n7.Delete a student record\n8.Update a student record\n9.Close Program\n")
         program_running = input("Please select one of the following (enter the number):")
         if program_running.lower() == "1":
             students = student_records()
