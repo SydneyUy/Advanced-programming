@@ -1,25 +1,3 @@
-'''
-TODO
-
-update to Tkinter GUI
-
-add sort list:
-by acending or decending
-
-add add student
-
-name:
-number:
-coursework:
-exam:
-percent:
-grade:
-add delete student
-by number
-add update studen2t
-
-'''
-
 def student_records():
     students = []
     with open('studentMarks.txt', 'r', encoding='utf-8') as records:
